@@ -3,12 +3,11 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 export const Footer = styled.p`
-    position: absolute;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin-top: 2em;
+    margin-bottom: 0;
     font-size: 0.75em;
     height: 48px;
     width: 100%;
