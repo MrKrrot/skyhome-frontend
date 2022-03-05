@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import { createGlobalStyle } from 'styled-components'
+import { darkColors } from '@helpers/colors'
 
 const GlobalStyle = createGlobalStyle`
     body {
@@ -10,6 +11,8 @@ const GlobalStyle = createGlobalStyle`
             'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        background-color: ${darkColors.black2};
+        color: ${darkColors.white1};
     }
 
     code {
