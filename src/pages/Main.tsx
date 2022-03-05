@@ -7,17 +7,17 @@ export const Main = () => {
     return (
         <>
             <MainTitle />
-            <div>
+            <main>
                 <FormContainer>
                     <FormTitle title='Iniciar sesión' />
                     <TextField text='Correo' type='email' />
                     <TextField text='Contraseña' type='password' />
-                    <Check />
+                    <Check textLabel='Recuérdame' />
                     <PasswordLink />
                     <Submit />
                 </FormContainer>
                 <FormFooter text='¿No tienes una cuenta?' link='Crea una ahora' to='/register' />
-            </div>
+            </main>
         </>
     )
 }
