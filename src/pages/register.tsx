@@ -2,7 +2,7 @@ import { MainTitle } from '@components'
 import { Check, FormContainer, FormTitle, Submit, TextField } from '@components/Forms'
 import { FormFooter } from '@components/Forms/FormFooter'
 
-export const Register = () => {
+const Register = () => {
     return (
         <>
             <MainTitle />
@@ -22,3 +22,5 @@ export const Register = () => {
         </>
     )
 }
+
+export default Register

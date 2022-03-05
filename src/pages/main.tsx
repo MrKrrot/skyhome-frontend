@@ -3,7 +3,7 @@ import { Check, FormContainer, FormTitle, Submit, TextField } from '@components/
 import { FormFooter } from '@components/Forms/FormFooter'
 import PasswordLink from '@components/Forms/PasswordLink'
 
-export const Main = () => {
+const Main = () => {
     return (
         <>
             <MainTitle />
@@ -21,3 +21,5 @@ export const Main = () => {
         </>
     )
 }
+
+export default Main
