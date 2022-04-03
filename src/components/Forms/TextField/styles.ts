@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { darkColors } from '@helpers/colors'
 
 export const Input = styled.input`
-    width: 100%;
+    width: 92%;
     padding: 0.5em;
     margin-top: 1em;
     background-color: inherit;

@@ -15,7 +15,7 @@ const Register = () => {
                     <TextField text='Contraseña' type='password' />
                     <TextField text='Confirmar contraseña' type='password' />
                     <Check textLabel='Acepto términos y condiciones' />
-                    <Submit />
+                    <Submit text='Registrarse' />
                 </FormContainer>
                 <FormFooter text='¿Ya tienes una cuenta?' link='Inicia sesión' to='/' />
             </main>

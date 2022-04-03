@@ -14,7 +14,7 @@ const Main = () => {
                     <TextField text='Contraseña' type='password' />
                     <Check textLabel='Recuérdame' />
                     <PasswordLink />
-                    <Submit />
+                    <Submit text='Iniciar sesión' />
                 </FormContainer>
                 <FormFooter text='¿No tienes una cuenta?' link='Crea una ahora' to='/register' />
             </main>
