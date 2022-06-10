@@ -1,10 +1,10 @@
-import { FunctionComponent } from 'react'
+import { FormContainerProps } from './interface'
 import { Container, Form } from './styles'
 
-export const FormContainer: FunctionComponent = ({ children }) => {
+export const FormContainer = ({ children, onSubmit }: FormContainerProps) => {
     return (
         <Container>
-            <Form>{children}</Form>
+            <Form onSubmit={onSubmit}>{children}</Form>
         </Container>
     )
 }
