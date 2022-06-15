@@ -1,3 +1,4 @@
+import { breakpoints } from '@helpers/breakpoints'
 import { darkColors } from '@helpers/colors'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
@@ -10,5 +11,8 @@ export const ForgotPassword = styled(Link)`
     transition: color 0.25s;
     &:hover {
         color: ${darkColors.gray3};
+    }
+    @media (min-width: ${breakpoints.laptop}){
+        margin-right: 2em;
     }
 `

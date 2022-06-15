@@ -1,3 +1,4 @@
+import { breakpoints } from '@helpers/breakpoints'
 import { darkColors } from '@helpers/colors'
 import styled from 'styled-components'
 
@@ -8,7 +9,7 @@ export const ErrorContainer = styled.div`
     align-items: center;
     top: 0;
     left: 0;
-    width: 90vw;
+    width: 100%;
     height: 3em;
     background-color: ${darkColors.red};
     color: ${darkColors.white1};
@@ -16,4 +17,7 @@ export const ErrorContainer = styled.div`
     border: 2px solid #c32525;
     margin-top: 1em;
     font-size: 0.95em;
+    @media screen and (min-width: ${breakpoints.laptop}){
+        width: 85%;
+    }
 `

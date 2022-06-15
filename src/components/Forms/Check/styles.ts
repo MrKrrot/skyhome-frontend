@@ -1,9 +1,13 @@
+import { breakpoints } from '@helpers/breakpoints'
 import { darkColors } from '@helpers/colors'
 import styled from 'styled-components'
 
 export const RememberContainer = styled.div`
     margin-top: 0.8em;
     align-self: flex-start;
+    @media screen and (min-width: ${breakpoints.laptop}){
+        margin-left: 2em;
+    }
 `
 
 export const Checkbox = styled.input`
@@ -16,13 +20,15 @@ export const Checkbox = styled.input`
     height: 1.15em;
     border: 0.15em solid ${darkColors.white1};
     border-radius: 0.15em;
-    transform: translateY(-0.17em);
     &:checked {
         background-color: ${darkColors.blue};
+    }
+    @media screen and (min-width: ${breakpoints.laptop}){
+        margin-left: 2.5em;
     }
 `
 
 export const Label = styled.label`
-    margin-left: 1.5em;
+    margin-left: 1.4em;
     cursor: pointer;
 `

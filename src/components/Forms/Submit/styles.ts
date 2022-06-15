@@ -1,3 +1,4 @@
+import { breakpoints } from '@helpers/breakpoints'
 import { darkColors } from '@helpers/colors'
 import styled from 'styled-components'
 
@@ -13,5 +14,12 @@ export const InputSubmit = styled.input`
     cursor: pointer;
     &:hover {
         background-color: ${darkColors.blue}e8;
+    }
+    @media screen and (min-width: ${breakpoints.laptop}){
+        width: 8em;
+        align-self: flex-start;
+        margin-bottom: 1em;
+        margin-left: 2em;
+        padding: 0.5em;
     }
 `
