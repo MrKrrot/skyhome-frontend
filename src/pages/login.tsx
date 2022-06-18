@@ -7,7 +7,7 @@ import { breakpoints } from '@helpers/breakpoints'
 import React, { useState } from 'react'
 import styled from 'styled-components'
 
-const Main = () => {
+const Login = () => {
     const [data, setData] = useState({})
     const [error, setError] = useState({ isError: false, message: '' })
 
@@ -55,4 +55,4 @@ const Container = styled.div`
     }
 `
 
-export default Main
+export default Login

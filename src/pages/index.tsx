@@ -1,5 +1,5 @@
-import Main from './main'
+import Login from './login'
 import Register from './register'
 import Home from './home'
 
-export { Main, Register, Home }
+export { Login, Register, Home }
