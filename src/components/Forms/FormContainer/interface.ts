@@ -1,4 +1,4 @@
 export interface FormContainerProps {
     onSubmit?: React.FormEventHandler<HTMLFormElement>
-    children: React.ReactNode
+    children: JSX.Element | JSX.Element[]
 }
